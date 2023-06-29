@@ -37,7 +37,26 @@ head(lobster_traps)
 
 ## Exercise 1
 
+
+```{r}
+#unique(lobster_abundance$SIZE_MM)
+lobster_abundance <- lobster_abundance %>% 
+  mutate(SIZE_MM = na_if(SIZE_MM, -99999))
+unique(lobster_abundance$SIZE_MM)
+```
+
+
+
 ## Exercise 2
+
+```{r}
+AQUE_70_plus <- lobster_abundance %>% 
+  filter(SITE == "AQUE",
+         SIZE_MM > 70)
+AQUE_70_plus
+```
+
+
 
 ## Exercise 3
 
