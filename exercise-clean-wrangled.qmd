@@ -1,0 +1,23 @@
+---
+title: "Exercise: Explore, Clean, and Wrangle Data"
+author: "Taylor"
+format: html
+---
+
+## About the data
+
+## Setup
+
+## Read and explore data
+
+## Exercise 1
+
+## Exercise 2
+
+## Exercise 3
+
+## Exercise 4
+
+## Exercise 5
+
+## Exercise 6
